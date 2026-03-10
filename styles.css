@@ -39,7 +39,7 @@ header {
 }
 
 .name {
-  margin: 0 0 3pt;
+  margin: 0 0 2pt;
   font-size: 22pt;
   font-weight: 700;
   color: #1a2b4a;
@@ -51,7 +51,7 @@ header {
   font-size: 10pt;
   font-weight: 500;
   color: #1a6fc4;
-  margin-bottom: 8pt;
+  margin-bottom: 3pt;
   letter-spacing: 0.05em;
   text-transform: uppercase;
 }
@@ -63,34 +63,14 @@ header {
   color: #333;
 }
 
-/* ── Info Bar ────────────────────────────────────────── */
-
-.info {
-  background-color: #f0f6fd;
-  border-left: 3pt solid #1a6fc4;
-  padding: 7pt 12pt;
-  margin-bottom: 2pt;
-}
-
-.info ul {
-  display: flex;
-  flex-wrap: wrap;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  gap: 3pt 24pt;
-}
-
-.info ul li {
-  display: flex;
+.header-email {
+  display: inline-flex;
   align-items: center;
+  gap: 4pt;
   font-size: 8.5pt;
-  color: #333;
-}
-
-.info a {
-  color: #333;
+  color: #555;
   text-decoration: none;
+  margin-bottom: 5pt;
 }
 
 .material-icons {
